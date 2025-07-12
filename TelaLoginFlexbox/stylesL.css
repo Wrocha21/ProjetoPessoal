@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    background-color: rgb(169, 244, 247);
+    height: 100vh;
+}
+
+section#Formulario {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 430px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(143, 143, 143);
+}
+
+section#Formulario > div.avatar {
+    padding: 30px;
+    text-align: center;
+}
+
+section#Formulario > div.avatar > img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(159, 150, 160);
+}
+
+
+section#Formulario > form > .campo  {
+    padding-bottom: 20px;
+}
+
+#icon-btn {
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.inp {
+    padding: 10px;
+    width: 240px;
+    border-radius: 6px;
+    border: 1px solid rgb(156, 148, 148);
+}
+
+
+section#Formulario > form > input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+section#Formulario > form > input[type=submit]:hover {
+    background-color: gray;
+    color: white;
+}
+
+section#Formulario > form > a {
+    display: block;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
