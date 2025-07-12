@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(76, 139, 139);
+}
+
+.conteiner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.caixas {
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
