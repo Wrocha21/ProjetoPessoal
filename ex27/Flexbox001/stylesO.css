@@ -1,0 +1,29 @@
+
+.conteiner {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgb(175, 59, 59);
+}
+
+.caixas {
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+#i1 {
+ flex: 2 1 150px;
+}
+
+#i2 {
+ flex: 0 1 150px;
+}
+
+#i3 {
+  flex: 0 1 150px
+}
+
+#i4 {
+ flex: 2 1 150px;
+}
