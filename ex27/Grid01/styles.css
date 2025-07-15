@@ -1,0 +1,16 @@
+div.conteiner {
+    display: grid;
+    grid-template: repeat(3, 100px) / 1fr 2fr 1fr;
+    place-items: normal normal;
+    place-content: normal normal;
+    width: 1200px;
+    height: 600px;
+    gap: 10px;
+    border: 2px solid black;
+}
+
+div.items {
+    text-align: center;
+    border: 2px solid red;
+
+}
